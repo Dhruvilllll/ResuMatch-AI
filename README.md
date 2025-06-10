@@ -35,7 +35,7 @@ A Streamlit-based application that uses OpenAI's GPT model to evaluate resumes a
 
 ### 1. Clone the repo
 
-git clone https://github.com/yourusername/resume-analyzer.git
+git clone https://github.com/yourusername/resume-analyzer.git<br/>
 cd resume-analyzer
 
 ### 2. Install dependencies
@@ -47,11 +47,11 @@ pip install -r requirements.txt
 #### Create a .env file and add:
 OPENAI_API_KEY=your-openai-key-here
 
-In app.py, load it using:
+#### In app.py, load it using:<br/>
 
-from dotenv import load_dotenv
-import os
-load_dotenv()
+from dotenv import load_dotenv <br/>
+import os<br/>
+load_dotenv()<br/>
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
