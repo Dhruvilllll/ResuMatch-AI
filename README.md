@@ -58,3 +58,33 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 ### 4. Run the App
 
 streamlit run app.py
+
+
+# A Sample Result 
+
+## 🧠 AI Resume Match Report
+Date: 2025-06-09
+
+## 📊 TF-IDF Match Score
+**78.63%**
+
+## ✅ Matching Skills
+- Python  
+- Power BI  
+- Regression Modeling  
+- Feature Engineering  
+...
+
+## ❌ Missing/Desired Skills
+- Azure DevOps  
+- SQL Optimization  
+...
+
+## 💡 Suggestions
+- Add Azure DevOps experience to resume
+- Include SQL optimization examples
+...
+
+## 🔍 Summary
+Your technical foundation is solid. Just a few soft skills and tools are missing to fully match this job.
+
