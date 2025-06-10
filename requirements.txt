@@ -1,0 +1,17 @@
+# --- CORE FUNCTIONALITY ---
+streamlit==1.35.0               # UI Framework
+openai==1.30.1                  # OpenAI GPT API Integration
+PyMuPDF==1.23.21                # PDF Text Extraction (fitz)
+
+# --- TEXT PROCESSING & NLP (Optional Enhancements) ---
+scikit-learn==1.5.0             # Cosine Similarity, TF-IDF (Job Matching)
+nltk==3.8.1                     # NLP Toolkit
+spacy==3.7.4                    # Named Entity Recognition / Skills Extraction
+tiktoken==0.6.0                 # Tokenizer for LLMs
+
+# --- STREAMLIT COMPONENT ENHANCEMENTS ---
+pandas==2.2.2                   # Data processing (future charts or CSV export)
+python-dotenv==1.0.1            # To store your OpenAI key securely
+
+# --- LLM CHAINS (Optional if using LangChain later) ---
+langchain==0.1.17               # For managing prompt chains or memory
